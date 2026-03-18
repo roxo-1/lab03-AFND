@@ -1,0 +1,4 @@
+N aceita a palavra <ab>
+N aceita a palavra <aab>
+N rejeita a palavra <aba>
+N aceita a palavra <bbab>

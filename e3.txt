@@ -1,0 +1,29 @@
+# Automato Finito Nao Deterministico
+# Este automato aceita palavras que começam com 'a' e terminam com 'b'
+# L(N) = a(a|b)*b
+
+# Alfabeto:
+A a b
+
+# Estados:
+Q Start Mid End
+
+# Estado Inicial:
+q Start
+
+# Estados Finais:
+F End
+
+# Transições
+T Start a Mid
+T Mid a Mid
+T Mid b Mid
+T Mid b End
+
+# Palavras
+P ab
+P aab
+P abbb
+P ba
+P a
+P babb

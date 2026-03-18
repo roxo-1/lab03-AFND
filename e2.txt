@@ -1,0 +1,30 @@
+# Automato Finito Nao Deterministico
+# Este automato aceita palavras que contenham a subsequencia aa
+# L(N) = (a|b)*aa(a|b)*
+
+# Alfabeto:
+A a b
+
+# Estados:
+Q S1 S2 S3
+
+# Estado Inicial:
+q S1
+
+# Estados Finais:
+F S3
+
+# Transições
+T S1 a S1
+T S1 b S1
+T S1 a S2
+T S2 a S3
+T S3 a S3
+T S3 b S3
+
+# Palavras
+P aa
+P baab
+P aaaaa
+P abab
+P bba
